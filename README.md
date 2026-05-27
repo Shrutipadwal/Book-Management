@@ -59,7 +59,7 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Shrutipadwal/Book-Management.git
 ```
 
 ---
@@ -67,7 +67,7 @@ git clone YOUR_REPOSITORY_URL
 ### 2. Navigate to the project folder
 
 ```bash
-cd YOUR_PROJECT_FOLDER
+cd Book-Management
 ```
 
 ---

@@ -1,8 +1,7 @@
 Book Management System
-
 Project Description
 
-This is a React-based Book Management System that allows users to perform full CRUD operations (Create, Read, Update, Delete) on books. The application is integrated with a mock REST API and provides features such as searching and filtering books by genre. It also includes form validation, loading states, and basic error handling.
+This is a React-based Book Management System that allows users to perform full CRUD operations (Create, Read, Update, Delete) on books. The application is integrated with a mock REST API and provides features such as searching and filtering books by genre. It also includes form validation, loading states, error handling, and toast notifications for user actions.
 
 Features
 Add new books
@@ -21,24 +20,23 @@ JavaScript (ES6+)
 CSS
 MockAPI (for backend simulation)
 Project Structure
-
 src/
-components/
-BookCard.jsx
-BookForm.jsx
-BookList.jsx
-SearchBar.jsx
-GenreFilter.jsx
-
-services/
-api.js
-
-styles/
-styles.css
-
-App.jsx
-main.jsx
-
+│
+├── components/
+│   ├── BookCard.jsx
+│   ├── BookForm.jsx
+│   ├── BookList.jsx
+│   ├── SearchBar.jsx
+│   └── GenreFilter.jsx
+│
+├── services/
+│   └── api.js
+│
+├── styles/
+│   └── styles.css
+│
+├── App.jsx
+└── main.jsx
 Setup Instructions
 1. Clone the repository
 git clone YOUR_REPOSITORY_URL
@@ -50,8 +48,8 @@ npm install
 npm run dev
 
 The application will run on:
-http://localhost:5173
 
+http://localhost:5173
 Build for Production
 npm run build
 API Configuration
@@ -65,7 +63,26 @@ src/services/api.js
 Example:
 
 const API_URL = "https://your-mockapi-url.mockapi.io/books";
+Live Demo
 
+The project is deployed and accessible at:
+
+https://book-management-seven-mu.vercel.app/
 
 Deployment
-The application can be deployed using platforms such as Vercel or Netlify.
+
+The application is deployed using Vercel.
+
+Steps followed:
+
+Pushed code to GitHub repository
+Imported the repository into Vercel
+Selected framework as Vite (React)
+Set build command: npm run build
+Output directory: dist
+Deployed successfully
+Future Improvements
+Dark mode support
+Pagination for book list
+Advanced filtering options
+Authentication system

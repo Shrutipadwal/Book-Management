@@ -143,12 +143,3 @@ Steps followed:
 
 ---
 
-## Future Improvements
-
-* Dark mode support
-* Pagination for book list
-* Advanced filtering options
-* Authentication system
-
----
-

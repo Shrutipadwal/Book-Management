@@ -137,9 +137,7 @@ Steps followed:
 1. Pushed code to GitHub repository
 2. Imported the repository into Vercel
 3. Selected framework as Vite (React)
-4. Set build command: `npm run build`
-5. Output directory: `dist`
-6. Deployed successfully
+4. Deployed successfully
 
 ---
 

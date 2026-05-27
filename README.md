@@ -1,9 +1,3 @@
-Here is your **properly structured, professional README.md** with your live deployment link added and everything formatted cleanly.
-
-You can directly copy-paste this into your GitHub repo.
-
----
-
 # Book Management System
 
 ## Project Description
